@@ -5,13 +5,13 @@
 class Burnrate < Formula
   desc "AI usage analytics dashboard for Claude Code, Cursor, and Codex CLI"
   homepage "https://getburnrate.io"
-  version "1.0.0"
+  version "1.0.1"
   license "MIT"
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://github.com/burnrate-dev/burnrate/releases/download/v1.0.0/burnrate_1.0.0_darwin_amd64.tar.gz"
-    sha256 "3d343134cb33dddf63bf5cec579f9c9f97d6bdbfe1ba31e8214aa3c3f405588c"
+    url "https://github.com/burnrate-dev/burnrate/releases/download/v1.0.1/burnrate_1.0.1_darwin_amd64.tar.gz"
+    sha256 "9673d24fba8917f77b90bf97289c072541d6f92aa16e5cf1e6c18ef09747cf7d"
 
     define_method(:install) do
       bin.install "burnrate"
@@ -19,8 +19,8 @@ class Burnrate < Formula
     end
   end
   if Hardware::CPU.arm?
-    url "https://github.com/burnrate-dev/burnrate/releases/download/v1.0.0/burnrate_1.0.0_darwin_arm64.tar.gz"
-    sha256 "ef88df71c15d357e21fa699d05a1a87fd19f744adbed9506ac0a4c02593a2845"
+    url "https://github.com/burnrate-dev/burnrate/releases/download/v1.0.1/burnrate_1.0.1_darwin_arm64.tar.gz"
+    sha256 "565b2f94507411062c4f18f845a216960cdf2495db587e64f18b4e85b9da939c"
 
     define_method(:install) do
       bin.install "burnrate"
