@@ -1,6 +1,6 @@
 # homebrew-tap
 
-Homebrew tap for [BurnRate](https://github.com/burnrate-dev/burnrate) CLI.
+Homebrew tap for [BurnRate](https://getburnrate.io) CLI.
 
 ## Install
 

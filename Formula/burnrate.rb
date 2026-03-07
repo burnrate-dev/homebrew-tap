@@ -10,7 +10,7 @@ class Burnrate < Formula
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://github.com/burnrate-dev/burnrate/releases/download/v1.2.0/burnrate_1.2.0_darwin_amd64.tar.gz"
+    url "https://getburnrate.io/releases/v1.2.0/burnrate_1.2.0_darwin_amd64.tar.gz"
     sha256 "49ba8602d723ea5dd3acb3b7cc72c0d99bdc85fa111a835d65795becde00e011"
 
     define_method(:install) do
@@ -19,7 +19,7 @@ class Burnrate < Formula
     end
   end
   if Hardware::CPU.arm?
-    url "https://github.com/burnrate-dev/burnrate/releases/download/v1.2.0/burnrate_1.2.0_darwin_arm64.tar.gz"
+    url "https://getburnrate.io/releases/v1.2.0/burnrate_1.2.0_darwin_arm64.tar.gz"
     sha256 "6d818e4370edc6baa36114c96866b7968b320c56764783765179a003819d3cb3"
 
     define_method(:install) do
