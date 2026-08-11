@@ -18,3 +18,5 @@ brew upgrade --cask burnrate-dev/tap/burnrate
 ```
 
 For Linux, Windows, checksums, and direct downloads, see the [BurnRate installation docs](https://getburnrate.io/docs#installation).
+
+Planning a team rollout? Estimate blended subscription, API, and overage spend with the free [AI coding tool cost calculator](https://getburnrate.io/calculator?utm_source=github&utm_medium=homebrew_tap&utm_campaign=cost_calculator). No login or data upload is required.
